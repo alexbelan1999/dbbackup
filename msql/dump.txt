@@ -1,0 +1,3 @@
+mysqldump -uroot -p company > d:\git\dbbackup\msql\company.sql
+mysql> use company 
+mysql> source d:\git\dbbackup\msql\company.sql
